@@ -1,0 +1,15 @@
+body{
+    font-family: 'Water Brush', cursive;
+    margin:0;
+    color :aliceblue;
+}
+canvas{
+    display:block;
+}
+ 
+#hello{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+}
