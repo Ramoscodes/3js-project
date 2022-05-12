@@ -1,7 +1,9 @@
 body{
-    font-family: 'Water Brush', cursive;
+    font-family: 'Oleo Script', cursive;
     margin:0;
-    color :aliceblue;
+    color :rgb(91, 154, 216);
+    font-size: 1.3em;
+
 }
 canvas{
     display:block;
@@ -9,7 +11,32 @@ canvas{
  
 #hello{
     position:absolute;
-    top: 15%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%,-15%);
+    text-align: center;
+
+}
+
+#videoButton {position:relative;
+    background-color: rgb(193, 213, 233);
+    bottom: 9em;
+    left: 50em;
+    border-radius: 1.5em;
+    
+  }
+
+  #playButton {position:relative;
+    background-color: rgb(193, 213, 233);
+    bottom: 3em;
+    left: 35em;
+    border-radius: 1.5em;
+
+  }
+
+  #info { 
+    position:relative;
+     bottom: -20em;
+     color:cornsilk
+     
 }

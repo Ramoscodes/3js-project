@@ -7,20 +7,31 @@
     <title>Three Js</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+<body> 
+    
+    <!-- My Ttile field -->
     <div id="hello">
-        <h1>Nature & Humans</h1>
-        <p>Rules:</p>
-        <ol>
-            <li>Do not disrespect Nature</li>
-            <li>No Littering</li>
-            <li>Enjoy</li>
-          </ol>
+        <h1>A Study of Human Interaction with the Natural Environment</h1>
+    
+         <!-- My video link field -->
+        <button id="videoButton">Click Me First! 
+        <p>Check out <a href="https://www.youtube.com/watch?v=jBBsv0QyscE&list=PPSV" target="_blank">Tuvalu Sinking</a>.</p></button> 
+       
+       
+ <!-- My Audio Button field -->
+    <button id="playButton">Click Me and Explore! (Hint: click ctrl + drag)</button>
+
+        <audio id="myAudio" src="audio/leo.mp3" hidden loop></audio>
+        <div id = "info"><p>Virtual Reality vs Reality</p>
+
     </div>
 
+   
+    
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
